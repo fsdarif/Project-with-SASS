@@ -1,0 +1,36 @@
+.services{
+    .single-service {
+        float: left;
+        width: 380px;
+        margin: 20px 20px 0px 0px;
+        border: 1px solid #b2b2b2;
+        padding: 20px;
+        transition: .3s;
+        &:hover{
+            border-color:$primary_color;
+            i{
+                background-color: $black;
+                color: $white;
+            }
+        }
+        i {
+            font-size: 20px;
+            background-color: $primary_color;
+            width: 50px;
+            border-radius: 50%;
+            height: 50px;
+            line-height: 50px;
+            color: #333;
+            margin-bottom: 25px;
+            transition: .3s;
+          }
+          h4 {
+            font-size: 30px;
+            text-transform: capitalize;
+          }
+          p{
+            margin: 20px 0;
+          }
+      }
+
+}

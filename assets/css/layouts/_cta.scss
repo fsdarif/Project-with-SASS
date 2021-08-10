@@ -1,0 +1,20 @@
+.cta-area{
+  margin-top: 100px;
+  margin-bottom: 50px;
+    .cta-content {
+        color: #fff;
+        h4 {
+            font-size: 40px;
+            text-transform: capitalize;
+            line-height: 70px;
+          }
+          p {
+            max-width: 600px;
+            margin: 0 auto;
+          }
+          a{
+              margin: 20px 10px;
+              color: #fff;
+          }
+    }
+}

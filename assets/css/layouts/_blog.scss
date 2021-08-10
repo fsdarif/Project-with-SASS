@@ -1,0 +1,25 @@
+
+.single-blog {
+    width: 370px;
+    float: left;
+    margin-right: 30px;
+    .blog-image {
+      height: 250px;
+      background-position: center;
+      background-size: cover;
+    }
+    .blog-content {
+      padding: 20px;
+      h4{
+        font-size: 20px;
+    text-transform: capitalize;
+    margin: 15px 0;
+      }
+      p{
+          margin-bottom: 15px;
+      }
+      .btn{
+        color: #fff;
+      }
+   }
+  }
